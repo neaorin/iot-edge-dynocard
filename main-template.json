@@ -231,7 +231,7 @@
           "location": "[parameters('geo-paired-primary-region')]",
           "retentionTimeInDays": 1,
           "partitionCount": 2,
-          "skuName": "F1",
+          "skuName": "S1",
           "skuName1": "S1",
           "skuCapacity": 1,
           "iotHubResourceId": "[resourceId('Microsoft.Devices/Iothubs',variables('iotHubName'))]",
