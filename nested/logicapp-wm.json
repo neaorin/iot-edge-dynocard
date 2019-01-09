@@ -77,7 +77,7 @@
                 {
                     "name": "Microsoft.Insights/service",
                     "type": "providers/diagnosticSettings",
-                    "apiVersion": "2015-07-01",
+                    "apiVersion": "2016-09-01",
                     "dependsOn": [
                         "[concat('Microsoft.Logic/workflows/', parameters('webApp').name)]"
                     ],
