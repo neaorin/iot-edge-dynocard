@@ -345,7 +345,7 @@
           "modelManagementAccountSkuTier": "DEVTEST",
           "rgname": "[resourceGroup().name]"
       },
-      "baseUrl": "https://raw.githubusercontent.com/sysgain/iot-edge-dynocard/master/",
+      "baseUrl": "https://raw.githubusercontent.com/neaorin/iot-edge-dynocard/master/",
       "suffix": "[substring(uniqueString(resourceGroup().id), 0, 5)]",
       "serviceBusNamespaceName": "[concat('snamespace',variables('suffix'))]",
       "serviceBusNamespaceNameDr": "[concat('snamespacedr',variables('suffix'))]",
